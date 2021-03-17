@@ -42,7 +42,7 @@
     "node-dir": "^0.1.17",
     "recast": "^0.20.4",
     "temp": "^0.8.1",
-    "write-file-atomic": "^2.3.0"
+    "write-file-atomic": "^2.4.3"
   },
   "peerDependencies": {
     "@babel/preset-env": "^7.1.6"
