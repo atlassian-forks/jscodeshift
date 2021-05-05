@@ -1,6 +1,6 @@
 {
-  "name": "@atlassian/jscodeshift",
-  "version": "0.12.2-atlassian-1",
+  "name": "atlassian-forks-jscodeshift",
+  "version": "0.12.2-atlassian-6",
   "description": "A toolkit for JavaScript codemods",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "docs": "rm -rf docs && jsdoc -d docs -R README.md src/collections/* src/core.js src/Collection.js"
   },
   "bin": {
-    "jscodeshift": "./bin/jscodeshift.js"
+    "jscodeshift-atl-fork": "./bin/jscodeshift.js"
   },
   "keywords": [
     "codemod",
@@ -37,6 +37,7 @@
     "colors": "^1.1.2",
     "flow-parser": "0.*",
     "graceful-fs": "^4.2.4",
+    "lodash": "^4.17.21",
     "micromatch": "^3.1.10",
     "neo-async": "^2.5.0",
     "node-dir": "^0.1.17",
